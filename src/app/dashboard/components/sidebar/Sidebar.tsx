@@ -55,7 +55,7 @@ export default function Sidebar() {
           ) : (
             <>
               <Link
-                className="flex items-center gap-3 text-sm font-thin text-zinc-280 p-1.5 cursor-pointer transition ease-in-out delay-100"
+                className="flex items-center gap-3 text-sm font-bold text-zinc-280 p-1.5 cursor-pointer transition ease-in-out delay-100 hover:shadow-md rounded-md"
                 href={"dashboard"}
               >
                 <Image
@@ -74,7 +74,7 @@ export default function Sidebar() {
           {p == "tables" ? (
             <>
               <Link
-                className="flex items-center gap-3 text-sm font-bold text-zinc-280 rounded shadow-sm bg-orange-primary p-1.5 transition ease-in-out delay-100"
+                className="flex items-center gap-3 text-sm font-bold text-zinc-280 rounded shadow-sm bg-orange-primary p-1.5 transition ease-in-out delay-100 "
                 href={"dashboard/tables"}
               >
                 <Image
@@ -91,7 +91,7 @@ export default function Sidebar() {
           ) : (
             <>
               <Link
-                className="flex items-center gap-3 text-sm font-thin text-zinc-280 p-1.5 cursor-pointer transition ease-in-out delay-100"
+                className="flex items-center gap-3 text-sm font-bold text-zinc-280 p-1.5 cursor-pointer transition ease-in-out delay-100 hover:shadow-md rounded-md"
                 href={"dashboard/tables"}
               >
                 <Image

@@ -11,7 +11,7 @@ export default function layout({ children }: { children: React.ReactNode }) {
           <main className="flex-1 p-6">
             <Navbar />
 
-            <div className="flex flex-wrap mt-12 -mx-3">{children}</div>
+            <div className="flex flex-wrap mt-12 mx-3">{children}</div>
           </main>
         </div>
       </div>
