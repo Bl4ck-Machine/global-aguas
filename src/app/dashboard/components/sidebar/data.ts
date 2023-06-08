@@ -11,8 +11,46 @@ export const sidebarMenu: Array<ISidebar> = [
     },
     {
         src: tableIcon,
-        description: "Tabelas",
-        link: "/dashboard/tables",
-        state: "tables"
+        description: "Solicitações",
+        link: "/dashboard/solicitations",
+        state: "solicitations"
+    },
+    {
+        src: tableIcon,
+        description: "Contas",
+        link: "/dashboard/accounts",
+        state: "accounts",
+        icon: true
+    },
+    {
+        src: tableIcon,
+        description: "Licenças",
+        link: "/dashboard/licenses",
+        state: "licenses",
+        icon: true
+    },
+    {
+        src: tableIcon,
+        description: "Motoristas",
+        link: "/dashboard/drivers",
+        state: "drivers"
+    },
+    {
+        src: tableIcon,
+        description: "Viagens",
+        link: "/dashboard/travels",
+        state: "travels"
+    },
+    {
+        src: tableIcon,
+        description: "Avaliações",
+        link: "/dashboard/evaluations",
+        state: "evaluations"
+    },
+    {
+        src: tableIcon,
+        description: "FeedBacks",
+        link: "/dashboard/feedbacks",
+        state: "feedbacks"
     }
 ]

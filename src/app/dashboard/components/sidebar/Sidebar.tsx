@@ -3,7 +3,7 @@
 import React from "react";
 
 import { usePathname } from "next/navigation";
-import Logo from "./components/Logo";
+import Logo from "../../../components/Logo";
 import ActiveState from "./components/ActiveState";
 import { sidebarMenu } from "./data";
 
@@ -14,7 +14,10 @@ export default function Sidebar() {
 
   return (
     <>
-      <aside className="w-64 bg-zinc-100 text-zinc-800 p-6 bg-white ml-5 mt-8 rounded-lg shadow max-sm:hidden">
+    <aside className="w-64 text-zinc-800 p-6  ml-5 mt-8 rounded-lg max-sm:hidden">
+
+    </aside>
+      <aside className="fixed border-black/12.5  h-screen w-64  text-zinc-800 p-6 ml-5 mt-8 rounded-lg max-sm:hidden shadow-soft-xl border-0 border-solid bg-white bg-clip-border ">
 
         <Logo />
 
@@ -27,13 +30,15 @@ export default function Sidebar() {
                   description={menu.description}
                   link={menu.link}
                   state={p == menu.state}
-                />
+                />{
+                  menu?.icon 
+                }
                 
               </>
             );
           })}
         </nav>
-        
+
       </aside>
     </>
   );
