@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import img from "../../../../../../public/images/GLOBAL-ÁGUAS-LOGO.png";
+import img from "../../../public/images/GLOBAL-ÁGUAS-LOGO.png";
 
 export default function Logo() {
   return (
