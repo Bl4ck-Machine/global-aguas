@@ -1,0 +1,1 @@
+export interface StatusCard { _className: string, title: string, total: string, amount: string, children: React.ReactNode}

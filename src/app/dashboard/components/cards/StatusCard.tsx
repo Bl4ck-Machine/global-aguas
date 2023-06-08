@@ -1,6 +1,7 @@
 import React from "react";
+import { StatusCard } from "./interfaces";
 
-export default function StatusCard({_className}: {_className: string}) {
+export default function StatusCard({ _className, title, total, amount, children }: StatusCard) {
   return (
     <>
       <div className={_className}>
@@ -10,10 +11,10 @@ export default function StatusCard({_className}: {_className: string}) {
               <div className="flex-none w-2/3 max-w-full px-3">
                 <div>
                   <p className="mb-0 font-sans font-semibold leading-normal text-sm">
-                    Today Money
+                    {title}
                   </p>
                   <h5 className="mb-0 font-bold">
-                    $53,000
+                    ${total}
                     <span className="leading-normal text-sm font-weight-bolder text-lime-500">
                       +55%
                     </span>
@@ -21,8 +22,10 @@ export default function StatusCard({_className}: {_className: string}) {
                 </div>
               </div>
               <div className="px-3 text-right basis-1/3">
-                <div className="inline-block w-12 h-12 text-center rounded-lg bg-gradient-to-tl from-purple-700 to-pink-500">
-                  <i className="ni leading-none ni-money-coins text-lg relative top-3.5 text-white"></i>
+                <div className="inline-block w-12 h-12 text-center  rounded-lg bg-gradient-to-tl from-orange-primary to-blue-500">
+                  <i className="ni leading-none ni-money-coins text-xl relative top-3.5 text-primary text-white flex justify-center">
+                    {children}
+                  </i>
                 </div>
               </div>
             </div>
