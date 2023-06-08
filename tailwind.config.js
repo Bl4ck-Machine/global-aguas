@@ -7,15 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      
-    },
-    colors: {
-      "gray-primary-2": "#64748b",
-      'gray-primary': '#f8f9fa',
-      'orange-primary': '#ffc32a',
-      'white': '#fff',
-      'gray-light': '#d3dce6',
-      'gray': '#d2d5d9',
+      colors: {
+        "gray-primary-2": "#64748b",
+        'gray-primary': '#f8f9fa',
+        'orange-primary': '#ffc32a',
+        'white': '#fff',
+        'gray-light': '#d3dce6',
+        'gray': '#d2d5d9',
+        'blue-primary': '#016291'
+      }
     }
   },
   plugins: [],
