@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -H 192.168.100.4",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -14,6 +14,7 @@
     "@types/chart.js": "^2.9.37",
     "@types/faker": "^6.6.9",
     "@types/node": "20.2.1",
+    "@types/nprogress": "^0.2.0",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "autoprefixer": "10.4.14",
@@ -22,6 +23,7 @@
     "eslint-config-next": "13.4.3",
     "lucide-react": "^0.224.0",
     "next": "13.4.3",
+    "nextjs-toploader": "^1.4.2",
     "postcss": "8.4.23",
     "prisma": "^4.14.1",
     "react": "18.2.0",

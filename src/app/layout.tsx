@@ -1,4 +1,5 @@
 import "./globals.css";
+import NextTopLoader from "nextjs-toploader";
 
 export const metadata = {
   title: "Global Aguas",
@@ -12,9 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="h-screen ">
+      <body className="h-screen bg-gray-primary">
+        <NextTopLoader color="#ffc32a" />
         {children}
-        
       </body>
     </html>
   );
