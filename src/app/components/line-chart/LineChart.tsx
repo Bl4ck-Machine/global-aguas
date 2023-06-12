@@ -26,6 +26,8 @@ ChartJS.register(
 
 export const options = {
   responsive: true,
+  
+  scaleFontColor: "#4fe023",
   plugins: {
     legend: {
       position: "top" as const,
@@ -53,10 +55,11 @@ export const data = {
       data: labels.map(() => faker.datatype.number({ min: -1000, max: 1000 })),
       borderColor: "rgb(53, 162, 235)",
       backgroundColor: "rgba(53, 162, 235, 0.5)",
+
     },
   ],
 };
 
 export function LineChart() {
-  return <Line options={options} data={data} height={70}/>;
+  return <Line options={options} data={data} height={70} className=""/>;
 }

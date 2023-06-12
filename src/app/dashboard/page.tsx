@@ -69,10 +69,10 @@ export default function Page() {
             <h5 className="pt-2 mb-6 font-bold ">
               Estimativas de arrecadações
             </h5>
-            <p className="">
-              grafico
+            <div className="bg-gradient-to-tl from-gray-900 to-slate-800 dark:bg-gradient-to-tl dark:from-slate-850 dark:to-gray-850 rounded-md mb-2">
               <LineChart />
-            </p>
+            </div>
+            <p>Ver mais</p>
           </DashboardCard>
 
           <DashboardCard _className="w-full max-w-full px-3 lg:w-12/12 lg:flex-none mb-6">

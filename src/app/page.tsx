@@ -1,18 +1,14 @@
-
 import Logo from "./components/Logo";
 import Footer from "./dashboard/components/footer/Footer";
 import Login from "./dashboard/components/login/Login";
 
 export default function Home() {
-
   return (
     <>
       <div className="flex flex-col ">
         <div className="flex-1 text-zinc-100 ">
           <div className="text-center pb-72 pt-24 bg-[url('../../public/images/login.png')] bg-no-repeat bg-cover bg-bottom">
-            <div className="font-extrabold text-5xl">
-              Global Águas
-            </div>
+            <div className="font-extrabold text-5xl">Global Águas</div>
             <div className="font-extrabold text-xl">
               _______
               <p>Portal Administrativo</p>
@@ -30,7 +26,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
       </div>
       <Footer />
     </>
