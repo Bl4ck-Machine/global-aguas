@@ -8,4 +8,6 @@ export default defineConfig({
     // Ignora erros de build
     tolerateSingleBuildFailure: true,
   },
+  optimizeDeps : { ignoreBuildErrors: true, 
+  },
 })
