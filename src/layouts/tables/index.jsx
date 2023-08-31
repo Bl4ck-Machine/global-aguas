@@ -27,8 +27,8 @@ import Footer from "../../examples/Footer";
 import Table from "../../examples/Tables/Table";
 
 // Data
-import authorsTableData from "./data/authorsTableData";
-import projectsTableData from "./data/projectsTableData";
+import authorsTableData from "../../layouts/tables/data/AuthorsTableData";
+import projectsTableData from "../../layouts/tables/data/projectsTableData";
 
 function Tables() {
   const { columns, rows } = authorsTableData;
