@@ -16,7 +16,6 @@ Coded by www.creative-tim.com
 import { useState } from "react";
 
 // react-router-dom components
-import { Link } from "react-router-dom";
 
 // @mui material components
 import Switch from "@mui/material/Switch";
@@ -40,8 +39,8 @@ function SignIn() {
 
   return (
     <CoverLayout
-      title="Welcome back"
-      description="Enter your email and password to sign in"
+      title="Bem-vindo"
+      description="Insira o email e palavra-passe para acessar o sistema"
       image={curved9}
     >
       <SoftBox component="form" role="form">
@@ -77,21 +76,7 @@ function SignIn() {
             sign in
           </SoftButton>
         </SoftBox>
-        <SoftBox mt={3} textAlign="center">
-          <SoftTypography variant="button" color="text" fontWeight="regular">
-            Don&apos;t have an account?{" "}
-            <SoftTypography
-              component={Link}
-              to="/authentication/sign-up"
-              variant="button"
-              color="info"
-              fontWeight="medium"
-              textGradient
-            >
-              Sign up
-            </SoftTypography>
-          </SoftTypography>
-        </SoftBox>
+      
       </SoftBox>
     </CoverLayout>
   );

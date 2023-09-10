@@ -6,14 +6,12 @@ import VirtualReality from "./layouts/virtual-reality";
 import RTL from "./layouts/rtl";
 import Profile from "./layouts/profile";
 import SignIn from "./layouts/authentication/sign-in";
-import SignUp from "./layouts/authentication/sign-up";
 
 // Soft UI Dashboard React icons
 import Shop from "./examples/Icons/Shop";
 import Office from "./examples/Icons/Office";
 import Settings from "./examples/Icons/Settings";
 import Document from "./examples/Icons/Document";
-import SpaceShip from "./examples/Icons/SpaceShip";
 import CustomerSupport from "./examples/Icons/CustomerSupport";
 import CreditCard from "./examples/Icons/CreditCard";
 import Cube from "./examples/Icons/Cube";
@@ -82,16 +80,7 @@ const routes = [
     icon: <Document size="12px" />,
     component: <SignIn />,
     noCollapse: true,
-  },
-  {
-    type: "collapse",
-    name: "Sign Up",
-    key: "sign-up",
-    route: "/authentication/sign-up",
-    icon: <SpaceShip size="12px" />,
-    component: <SignUp />,
-    noCollapse: true,
-  },
+  }
 ];
 
 export default routes;
